@@ -17,4 +17,26 @@ func main() {
 	var c int = 2
 	var d int = 3 //两个数的数据类型必须一致才能进行算术运算
 	fmt.Println(c + d)
+	//类型转换
+	var aa int32 = 555
+	bb := int8(aa)
+	fmt.Println(aa)
+	fmt.Println(bb) //丢失精度
+	var cc byte = 'A'
+	var dd rune = '我'
+	fmt.Println(cc, dd)
+	fmt.Printf("%T,%c\n", cc, cc)
+	fmt.Printf("%T,%q\n", dd, dd)
+	aaa := "a李朝阳"
+	fmt.Println(len([]rune(aaa)[:]))
+	fmt.Println([]rune(aaa))
+	fmt.Println([]byte(aaa))
+	bbb := []rune(aaa)[1:2]
+	fmt.Println(string(bbb))
+	fmt.Printf("%U %b\n", bbb, bbb)
+	var aaaa float64 = 1.111
+	fmt.Println(aaaa)
+	var bbbb float64 = 1.111
+	fmt.Println(bbbb)
+
 }
