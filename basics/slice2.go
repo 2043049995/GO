@@ -15,8 +15,7 @@ func main() {
 	fmt.Println(slice2)
 	fmt.Println(slice5)
 	slices := []int{}
-	arr:=[2]int{1,2]}
+	//arr:=[2]int{1,2]}
 	fmt.Println(slices == nil)
-	fmt.Println(arr[0] == nil)
 
 }
