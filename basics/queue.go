@@ -34,13 +34,13 @@ func main() {
 			{
 				//fmt.Println("输入要删除数字的下标：")
 				//fmt.Scan(&index)
-				nums = delete(nums, index)
+				nums = deletes(nums, index)
 				fmt.Println(nums)
 			}
 		}
 	}
 }
-func delete(nums []int, index int, numOptional ...int) []int {
+func deletes(nums []int, index int, numOptional ...int) []int {
 	//num := 1
 	//if len(numOptional) > 0 {
 	//num = numOptional[0]
