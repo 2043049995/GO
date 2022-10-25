@@ -1,0 +1,2 @@
+2022/10/17 15:08:19 connect fileserver success
+2022/10/17 19:18:00 read tcp4 127.0.0.1:7547->127.0.0.1:9999: wsarecv: An existing connection was forcibly closed by the remote host.
